@@ -1,28 +1,6 @@
 .heart {
-    position: relative;
-    width: 100px;
-    height: 90px;
-    background-color: rgb(247, 32, 32);
-    transform: rotate(-45deg);
-    margin: 50px;
-  }
+    font-size: xx-large;
+    align-items: center;
+}
 
-  .heart::before,
-  .heart::after {
-    content: '';
-    position: absolute;
-    width: 100px;
-    height: 150px;
-    background-color: rgb(248, 0, 103);
-    border-radius: 50%;
-  }
-
-  .heart::before {
-    top: -75px;
-    left: 0;
-  }
-
-  .heart::after {
-    top: 0;
-    left: 75px;
-  }
+  
